@@ -3,14 +3,14 @@ Created a small website that shows a list of applicants for a job vacancy.
 
 ## Installing the web application
 ```
-$git clone https://github.com/suyanthan/job-applicant-list-search.git
-$cd job-applicant-list-search
-$npm install
+$ git clone https://github.com/suyanthan/job-applicant-list-search.git
+$ cd job-applicant-list-search
+$ npm install
 ```
 ## Running the web application
 ```
-$npm start
-$open http://localhost:3000
+$ npm start
+$ open http://localhost:3000
 ```
 ## Pre-loaded applicants
 ```
