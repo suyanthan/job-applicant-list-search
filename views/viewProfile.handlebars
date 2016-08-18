@@ -1,0 +1,26 @@
+{{#if applicantProfileExist}}
+	<table>
+	  	<thead>
+	    	<tr>
+	     		<th colspan="2">Applicant details</th>
+	    	</tr>
+	  	</thead>
+	  	<tbody>
+	  		{{#each applicantData}}
+		    	<tr>
+		      		<td class="bold-small">{{@key}}:</td>
+		      		<td>{{this}}</td>
+		    	</tr>
+	    	{{/each}}
+	  	</tbody>
+	</table>
+{{else}}
+	<div class="error-summary" role="group" aria-labelledby="error-summary-heading-example-1" tabindex="-1">
+		<h1 class="heading-medium error-summary-heading" id="error-summary-heading-example-1">
+			Search result
+		</h1>
+		<p>
+			{{applicantData}}
+		</p>
+	</div>
+{{/if}}
